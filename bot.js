@@ -13,7 +13,7 @@ api.on('message', function(message) {
         var newMember = message.new_chat_participant;
         sendMessages("Seja bem-vindo(a) " + newMember.first_name + "! Para conhecer as regras digite /regras :)",chat_id);
     }
-    if(message.text == "/regras"){
+    if(message.text == "/regras" || message.text == "/regras@engenhariae_bot"){
         sendMessages("Regras estão sendo elaboradas! Aguarde ;)", chat_id);
     }
     console.log(message);
