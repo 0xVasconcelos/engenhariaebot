@@ -1,0 +1,28 @@
+{
+  "name": "engenhariaebot",
+  "version": "1.0.0",
+  "description": "O bot do grupo do Engenharia é: no Telegram!",
+  "main": "bot.js",
+  "dependencies": {
+    "telegram-bot-api": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslg26/engenhariaebot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "engenharia"
+  ],
+  "author": "Lucas Vasconcelos <lucaslg26@yahoo.com.br> (cpux.me)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lucaslg26/engenhariaebot/issues"
+  },
+  "homepage": "https://github.com/lucaslg26/engenhariaebot#readme"
+}
