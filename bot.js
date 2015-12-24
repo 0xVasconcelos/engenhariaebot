@@ -1,5 +1,4 @@
 var telegram = require('telegram-bot-api');
-var request = require("request");
 var api = new telegram({
     token: 'token',
     updates: {
